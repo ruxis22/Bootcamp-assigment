@@ -1,8 +1,9 @@
-const express = require('express')
+import './utils/dotenv';
+import express from 'express';
 
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost/asigment_db");
+mongoose.connect(process.env.MONGODB_URI);
 mongoose.connection.once('open', function(){
     console.log('Connection sucsesful')
 
