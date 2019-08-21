@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ruxis22/Bootcamp-assigment#readme",
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "connect-mongo": "^3.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
