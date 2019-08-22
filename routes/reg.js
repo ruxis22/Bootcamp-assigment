@@ -1,6 +1,6 @@
 import express from 'express';
 
-import asyncMiddleware from '../middlewares/syncMiddleware';
+import asyncMiddleware from '../middlewares/asyncMiddleware';
 import { register } from '../controllers/regController';
 
 const router = express.Router();

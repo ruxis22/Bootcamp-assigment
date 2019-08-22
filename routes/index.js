@@ -1,10 +1,10 @@
 import express from 'express';
 
 import asyncMiddleware from '../middlewares/asyncMiddleware';
-import { logIn } from '../controllers/loginController';
+import index from '../controllers/indexController';
 
 const router = express.Router();
 
-router.post('/session', asyncMiddleware(logIn));
+router.get('/*', asyncMiddleware(index));
 
 export default router;

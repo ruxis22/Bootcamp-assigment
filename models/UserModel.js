@@ -33,10 +33,10 @@ const comparePassword = async ({ userPassword, rehashedPassword }) =>
 
 UserModel.schema
   .path('username')
-  .validate(async username => !(await getUserByName(username)), 'User already exists!');
+  .validate(async username => !(await getUserByName(username)), 'Username Already taken!');
 
 UserModel.schema
   .path('email')
-  .validate(async email => !(await getUserByEmail(email)), 'User already exists!');
+  .validate(async email => !(await getUserByEmail(email)), 'Username Already taken!');
 
 export { save, getUserByName, getUserByEmail, comparePassword, userSchema };

@@ -12,7 +12,7 @@ const register = async (req, res) => {
   }).catch(error => {
     throw new AppError(error.message, 400);
   });
-  logger.log('info', `Welcome to this awsome comunity ${req.body.userName}`);
+  logger.log('info', `Welcome to this awsome comunity ${req.body.username}`);
   res.status(200).send({ payload: { message: 'Successfully registered' } });
 };
 export { register };

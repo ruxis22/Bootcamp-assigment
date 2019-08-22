@@ -10,6 +10,7 @@ import authenticate from './middlewares/authenticate';
 import reg from './routes/reg';
 import login from './routes/login'
 import user from './routes/user'
+import media from './routes/media';
 
 const app = express();
 const MongoStore = mongo(session);
@@ -37,13 +38,13 @@ app.use(
   }),
 );
 
-
+app.use('/uploads', express.static('uploads'));
 
 app.use(`/api/v${process.env.API_VERSION}/me`, user);
 app.use(`/api/v${process.env.API_VERSION}/reg`, authenticate, reg);
 app.use(`/api/v${process.env.API_VERSION}/login`, authenticate, login);
 
-
+app.use(`/api/v${process.env.API_VERSION}/media`, authenticate, media);
 const port = process.env.PORT || process.env.HOST_PORT;
 
 
