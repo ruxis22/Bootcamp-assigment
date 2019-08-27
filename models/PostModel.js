@@ -4,6 +4,7 @@ const postSchema = new mongoose.Schema(
   {
     title: { type: String, trim: true, unique: false, required: true },
     username: { type: String, required: true, unique: false },
+    category: { type: String, required: true, unique: false },
     media: {
       contentId: { type: String, unique: true, required: true },
       path: { type: String, unique: true, required: true },
@@ -22,4 +23,6 @@ const getPostById = async _id => PostModel.findById({ _id });
 
 const getRandomPosts = async () => PostModel.find();
 
-export { save, getPostByUser, getRandomPosts, getPostById };
+const getPostByCategory = async category => PostModel.find({ category }); 
+
+export { save, getPostByUser, getRandomPosts, getPostById, getPostByCategory};

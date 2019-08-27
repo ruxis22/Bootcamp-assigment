@@ -12,7 +12,6 @@ const jwtVerify = token =>
   });
 
 const authenticate = async (req, res, next) => {
-  // TODO Remove, used for dev purposes
   if (process.env.SKIP_AUTH) {
     return next();
   }

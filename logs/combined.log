@@ -1,0 +1,22 @@
+2019-08-22 22:09:01 debug logController: 	register: {"username":"man","email":"email@email.com","rehashedPassword":"password"}
+2019-08-22 22:09:01 info logController: 	Welcome to this awsome comunity man
+2019-08-24 16:28:37 debug logController: 	logIn: {}
+2019-08-24 16:28:37 debug logController: 	Login failed
+2019-08-24 16:59:26 debug logController: 	logIn: {}
+2019-08-24 16:59:26 debug logController: 	Login failed
+2019-08-24 17:05:46 debug logController: 	logIn: {}
+2019-08-24 17:05:46 debug logController: 	Login failed
+2019-08-24 17:08:03 debug logController: 	logIn: {}
+2019-08-24 17:08:03 debug logController: 	Login failed
+2019-08-24 17:38:36 debug logController: 	logIn: {}
+2019-08-24 17:38:36 debug logController: 	Login failed
+2019-08-24 17:41:51 debug logController: 	login: {}
+2019-08-24 17:41:51 debug logController: 	Login failed
+2019-08-24 18:07:26 debug logController: 	logIn: {}
+2019-08-24 18:07:27 debug logController: 	Login failed
+2019-08-26 08:53:54 debug logController: 	logIn: {}
+2019-08-26 08:53:56 debug logController: 	Login failed
+2019-08-26 10:45:23 debug logController: 	logIn: {}
+2019-08-26 10:45:23 debug logController: 	Login failed
+2019-08-26 11:07:08 debug logController: 	logIn: {}
+2019-08-26 11:07:08 debug logController: 	Login failed

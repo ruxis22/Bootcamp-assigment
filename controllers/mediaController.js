@@ -51,4 +51,19 @@ const getPostById = async (req, res) => {
   res.status(200).send({ payload: post });
 };
 
-export { getPosts, addPosts, attachMedia, getPostById };
+const getPostByCategory = async (req, res) => {
+  try {
+    const category = req.params.category;
+    console.log('req.params = ', req.params);
+    const posts = await PostModel.getPostsByCategory(category).catch(error => { 
+      new AppError(error.message, 400);
+    });
+    console.log('post : ', posts); 
+    res.status(200).send({ payload: { message: 'Fetched posts (by category) : ', 
+    post} });
+  } catch (error) {
+    console.log('error = ', error);
+  }
+}
+
+export { getPosts, addPosts, attachMedia, getPostById, getPostByCategory };

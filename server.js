@@ -7,10 +7,10 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 
 import authenticate from './middlewares/authenticate';
-import reg from './routes/reg';
-import login from './routes/login'
+import authRouter from './routes/auth';
 import user from './routes/user'
 import media from './routes/media';
+import index from './routes/index';
 
 const app = express();
 const MongoStore = mongo(session);
@@ -40,11 +40,12 @@ app.use(
 
 app.use('/uploads', express.static('uploads'));
 
-app.use(`/api/v${process.env.API_VERSION}/me`, user);
-app.use(`/api/v${process.env.API_VERSION}/reg`, authenticate, reg);
-app.use(`/api/v${process.env.API_VERSION}/login`, authenticate, login);
+
+app.use(`/api/v${process.env.API_VERSION}/auth`, authRouter);
+app.use(`/api/v${process.env.API_VERSION}/users`, authenticate, user);
 
 app.use(`/api/v${process.env.API_VERSION}/media`, authenticate, media);
+app.use(`/api/v${process.env.API_VERSION}`, index);
 const port = process.env.PORT || process.env.HOST_PORT;
 
 
