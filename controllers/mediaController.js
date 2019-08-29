@@ -15,6 +15,7 @@ const addPosts = async (req, res) => {
       path,
       contentId: req.body.contentId,
     },
+    category: req.body.caption
   });
   res.status(200).send({ payload: post });
 };
@@ -52,18 +53,15 @@ const getPostById = async (req, res) => {
 };
 
 const getPostByCategory = async (req, res) => {
-  try {
-    const category = req.params.category;
-    console.log('req.params = ', req.params);
-    const posts = await PostModel.getPostsByCategory(category).catch(error => { 
-      new AppError(error.message, 400);
-    });
-    console.log('post : ', posts); 
-    res.status(200).send({ payload: { message: 'Fetched posts (by category) : ', 
-    post} });
-  } catch (error) {
-    console.log('error = ', error);
-  }
+  logger.log('info', 'getPostByCategory: %j', req.body);
+  const post = await PostModel.getPostByCategory(req.params.category);
+  res.status(200).send({ payload: post });
 }
 
-export { getPosts, addPosts, attachMedia, getPostById, getPostByCategory };
+const findByIdAndRemove = async (req, res) => {
+  logger.log('info', 'getPosts: %j', req.body)
+  const searchAndRemove = await PostModel.findByIdAndRemove(req.params.mediaId);
+  res.status(200).send({ searchAndRemove })
+}
+
+export { getPosts, addPosts, attachMedia, getPostById, getPostByCategory, findByIdAndRemove };

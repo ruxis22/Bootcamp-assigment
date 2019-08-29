@@ -1,22 +1,831 @@
-2019-08-22 22:09:01 debug logController: 	register: {"username":"man","email":"email@email.com","rehashedPassword":"password"}
-2019-08-22 22:09:01 info logController: 	Welcome to this awsome comunity man
-2019-08-24 16:28:37 debug logController: 	logIn: {}
-2019-08-24 16:28:37 debug logController: 	Login failed
-2019-08-24 16:59:26 debug logController: 	logIn: {}
-2019-08-24 16:59:26 debug logController: 	Login failed
-2019-08-24 17:05:46 debug logController: 	logIn: {}
-2019-08-24 17:05:46 debug logController: 	Login failed
-2019-08-24 17:08:03 debug logController: 	logIn: {}
-2019-08-24 17:08:03 debug logController: 	Login failed
-2019-08-24 17:38:36 debug logController: 	logIn: {}
-2019-08-24 17:38:36 debug logController: 	Login failed
-2019-08-24 17:41:51 debug logController: 	login: {}
-2019-08-24 17:41:51 debug logController: 	Login failed
-2019-08-24 18:07:26 debug logController: 	logIn: {}
-2019-08-24 18:07:27 debug logController: 	Login failed
-2019-08-26 08:53:54 debug logController: 	logIn: {}
-2019-08-26 08:53:56 debug logController: 	Login failed
-2019-08-26 10:45:23 debug logController: 	logIn: {}
-2019-08-26 10:45:23 debug logController: 	Login failed
-2019-08-26 11:07:08 debug logController: 	logIn: {}
-2019-08-26 11:07:08 debug logController: 	Login failed
+2019-08-28 19:54:43 debug logController: 	logIn: {"email":"rudis@email.com","hashedPassword":"12345"}
+2019-08-28 19:54:43 info logController: 	Successfully loged in: rudis
+2019-08-28 19:54:43 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-28 19:54:43 info logController: 	getPosts: {}
+2019-08-28 19:54:47 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-28 19:54:47 info logController: 	getPostById: {}
+2019-08-28 19:54:47 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-28 19:54:47 debug logController: 	getPostComments: {}
+2019-08-28 19:57:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-28 19:57:27 info logController: 	getPosts: {}
+2019-08-29 08:39:10 debug logController: 	logIn: {"email":"rudis@email.com","hashedPassword":"12345"}
+2019-08-29 08:39:10 info logController: 	Successfully loged in: rudis
+2019-08-29 08:39:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:39:11 info logController: 	getPosts: {}
+2019-08-29 08:46:01 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:46:01 info logController: 	getPosts: {}
+2019-08-29 08:46:09 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:46:09 info logController: 	getPosts: {}
+2019-08-29 08:46:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:46:17 info logController: 	getPosts: {}
+2019-08-29 08:46:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:46:28 info logController: 	getPosts: {}
+2019-08-29 08:46:36 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:46:36 info logController: 	getPosts: {}
+2019-08-29 08:46:43 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:46:43 info logController: 	getPosts: {}
+2019-08-29 08:47:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:47:03 info logController: 	getPosts: {}
+2019-08-29 08:47:14 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:47:14 info logController: 	getPostById: {}
+2019-08-29 08:47:14 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:47:14 debug logController: 	getPostComments: {}
+2019-08-29 08:49:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:49:17 info logController: 	getPostById: {}
+2019-08-29 08:49:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:49:17 debug logController: 	getPostComments: {}
+2019-08-29 08:49:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:49:23 info logController: 	getPostById: {}
+2019-08-29 08:49:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:49:23 debug logController: 	getPostComments: {}
+2019-08-29 08:49:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:49:28 info logController: 	getPostById: {}
+2019-08-29 08:49:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:49:28 debug logController: 	getPostComments: {}
+2019-08-29 08:49:30 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:49:30 info logController: 	getPosts: {}
+2019-08-29 08:49:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 08:49:53 info logController: 	getPosts: {}
+2019-08-29 09:44:52 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 09:44:52 info logController: 	getPostById: {}
+2019-08-29 09:44:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 09:44:53 debug logController: 	getPostComments: {}
+2019-08-29 10:05:55 debug logController: 	logIn: {"email":"rudis@email.com","hashedPassword":"12345"}
+2019-08-29 10:05:55 info logController: 	Successfully loged in: rudis
+2019-08-29 10:05:55 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:05:55 info logController: 	getPosts: {}
+2019-08-29 10:06:02 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:02 info logController: 	getPostById: {}
+2019-08-29 10:06:02 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:02 debug logController: 	getPostComments: {}
+2019-08-29 10:06:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:05 info logController: 	getPosts: {}
+2019-08-29 10:06:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:05 info logController: 	getPostById: {}
+2019-08-29 10:06:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:05 debug logController: 	getPostComments: {}
+2019-08-29 10:06:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:08 info logController: 	getPosts: {}
+2019-08-29 10:06:48 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:48 info logController: 	getPosts: {}
+2019-08-29 10:06:50 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:50 info logController: 	getPostById: {}
+2019-08-29 10:06:50 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:06:50 debug logController: 	getPostComments: {}
+2019-08-29 10:07:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:17 info logController: 	getPostById: {}
+2019-08-29 10:07:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:17 debug logController: 	getPostComments: {}
+2019-08-29 10:07:19 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:19 info logController: 	getPostById: {}
+2019-08-29 10:07:19 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:19 debug logController: 	getPostComments: {}
+2019-08-29 10:07:24 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:24 info logController: 	getPostById: {}
+2019-08-29 10:07:24 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:24 debug logController: 	getPostComments: {}
+2019-08-29 10:07:49 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:49 info logController: 	getPostById: {}
+2019-08-29 10:07:49 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:49 debug logController: 	getPostComments: {}
+2019-08-29 10:07:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:58 info logController: 	getPostById: {}
+2019-08-29 10:07:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:07:58 debug logController: 	getPostComments: {}
+2019-08-29 10:08:00 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:00 info logController: 	getPostById: {}
+2019-08-29 10:08:00 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:00 debug logController: 	getPostComments: {}
+2019-08-29 10:08:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:05 info logController: 	getPostById: {}
+2019-08-29 10:08:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:05 debug logController: 	getPostComments: {}
+2019-08-29 10:08:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:08 info logController: 	getPostById: {}
+2019-08-29 10:08:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:08 debug logController: 	getPostComments: {}
+2019-08-29 10:08:15 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:15 info logController: 	getPostById: {}
+2019-08-29 10:08:15 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:15 debug logController: 	getPostComments: {}
+2019-08-29 10:08:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:27 info logController: 	getPostById: {}
+2019-08-29 10:08:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:27 debug logController: 	getPostComments: {}
+2019-08-29 10:08:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:29 info logController: 	getPostById: {}
+2019-08-29 10:08:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:29 debug logController: 	getPostComments: {}
+2019-08-29 10:08:39 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:39 info logController: 	getPostById: {}
+2019-08-29 10:08:39 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:39 debug logController: 	getPostComments: {}
+2019-08-29 10:08:44 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:44 info logController: 	getPostById: {}
+2019-08-29 10:08:44 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:44 debug logController: 	getPostComments: {}
+2019-08-29 10:08:47 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:47 info logController: 	getPostById: {}
+2019-08-29 10:08:47 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:47 debug logController: 	getPostComments: {}
+2019-08-29 10:08:50 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:50 info logController: 	getPostById: {}
+2019-08-29 10:08:50 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:50 debug logController: 	getPostComments: {}
+2019-08-29 10:08:52 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:52 info logController: 	getPostById: {}
+2019-08-29 10:08:52 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:08:52 debug logController: 	getPostComments: {}
+2019-08-29 10:09:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:09:11 info logController: 	getPostById: {}
+2019-08-29 10:09:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:09:11 debug logController: 	getPostComments: {}
+2019-08-29 10:09:16 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:09:16 info logController: 	getPosts: {}
+2019-08-29 10:09:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:09:17 debug logController: 	getPostComments: {}
+2019-08-29 10:09:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:09:17 info logController: 	getPostById: {}
+2019-08-29 10:09:59 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:09:59 info logController: 	getPostById: {}
+2019-08-29 10:09:59 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:09:59 debug logController: 	getPostComments: {}
+2019-08-29 10:10:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:10:05 info logController: 	getPostById: {}
+2019-08-29 10:10:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:10:05 debug logController: 	getPostComments: {}
+2019-08-29 10:10:22 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:10:22 info logController: 	getPostById: {}
+2019-08-29 10:10:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:10:23 debug logController: 	getPostComments: {}
+2019-08-29 10:10:38 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:10:38 info logController: 	getPostById: {}
+2019-08-29 10:10:38 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:10:38 debug logController: 	getPostComments: {}
+2019-08-29 10:10:41 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:10:41 info logController: 	getPostById: {}
+2019-08-29 10:10:41 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:10:41 debug logController: 	getPostComments: {}
+2019-08-29 10:11:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:11 info logController: 	getPostById: {}
+2019-08-29 10:11:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:12 debug logController: 	getPostComments: {}
+2019-08-29 10:11:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:23 info logController: 	getPostById: {}
+2019-08-29 10:11:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:23 debug logController: 	getPostComments: {}
+2019-08-29 10:11:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:27 info logController: 	getPostById: {}
+2019-08-29 10:11:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:27 debug logController: 	getPostComments: {}
+2019-08-29 10:11:30 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:30 info logController: 	getPostById: {}
+2019-08-29 10:11:31 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:31 debug logController: 	getPostComments: {}
+2019-08-29 10:11:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:42 info logController: 	getPostById: {}
+2019-08-29 10:11:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:42 debug logController: 	getPostComments: {}
+2019-08-29 10:11:44 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:44 info logController: 	getPostById: {}
+2019-08-29 10:11:44 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:44 debug logController: 	getPostComments: {}
+2019-08-29 10:11:51 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:51 info logController: 	getPostById: {}
+2019-08-29 10:11:51 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:51 debug logController: 	getPostComments: {}
+2019-08-29 10:11:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:58 info logController: 	getPostById: {}
+2019-08-29 10:11:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:11:58 debug logController: 	getPostComments: {}
+2019-08-29 10:12:00 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:00 info logController: 	getPostById: {}
+2019-08-29 10:12:00 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:00 debug logController: 	getPostComments: {}
+2019-08-29 10:12:04 info logController: 	getPostById: {}
+2019-08-29 10:12:04 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:04 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:04 debug logController: 	getPostComments: {}
+2019-08-29 10:12:06 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:06 info logController: 	getPostById: {}
+2019-08-29 10:12:06 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:06 debug logController: 	getPostComments: {}
+2019-08-29 10:12:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:12 info logController: 	getPostById: {}
+2019-08-29 10:12:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:12 debug logController: 	getPostComments: {}
+2019-08-29 10:12:25 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:25 info logController: 	getPostById: {}
+2019-08-29 10:12:26 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:26 debug logController: 	getPostComments: {}
+2019-08-29 10:12:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:45 info logController: 	getPostById: {}
+2019-08-29 10:12:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:45 debug logController: 	getPostComments: {}
+2019-08-29 10:12:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:57 info logController: 	getPostById: {}
+2019-08-29 10:12:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:12:57 debug logController: 	getPostComments: {}
+2019-08-29 10:13:13 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:13:13 info logController: 	getPostById: {}
+2019-08-29 10:13:14 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:13:14 debug logController: 	getPostComments: {}
+2019-08-29 10:13:20 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:13:20 info logController: 	getPostById: {}
+2019-08-29 10:13:20 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:13:20 debug logController: 	getPostComments: {}
+2019-08-29 10:13:21 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:13:21 info logController: 	getPostById: {}
+2019-08-29 10:13:22 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 10:13:22 debug logController: 	getPostComments: {}
+2019-08-29 12:17:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 12:17:53 info logController: 	getPostById: {}
+2019-08-29 12:17:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 12:17:53 debug logController: 	getPostComments: {}
+2019-08-29 12:18:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 12:18:57 info logController: 	getPostById: {}
+2019-08-29 12:18:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 12:18:57 debug logController: 	getPostComments: {}
+2019-08-29 12:19:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 12:19:03 info logController: 	getPosts: {}
+2019-08-29 12:19:06 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 12:19:06 debug logController: 	getPostComments: {}
+2019-08-29 12:19:06 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 12:19:06 info logController: 	getPostById: {}
+2019-08-29 12:19:15 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 12:19:15 info logController: 	getPosts: {}
+2019-08-29 13:04:47 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:04:47 debug logController: 	getPostComments: {}
+2019-08-29 13:04:47 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:04:47 info logController: 	getPostById: {}
+2019-08-29 13:13:35 debug logController: 	logIn: {"email":"rudis@email.com","hashedPassword":"password"}
+2019-08-29 13:13:35 debug logController: 	Login failed
+2019-08-29 13:14:11 debug logController: 	logIn: {"email":"rudis@email.com","hashedPassword":"12345"}
+2019-08-29 13:14:13 info logController: 	Successfully loged in: rudis
+2019-08-29 13:14:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:14:23 debug logController: 	addPostComments: {}
+2019-08-29 13:15:14 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:15:14 info logController: 	getPosts: {}
+2019-08-29 13:15:49 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:21:59 debug logController: 	logIn: {"email":"rudis@email.com","hashedPassword":"12345"}
+2019-08-29 13:21:59 info logController: 	Successfully loged in: rudis
+2019-08-29 13:21:59 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:21:59 info logController: 	getPosts: {}
+2019-08-29 13:22:01 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:22:01 info logController: 	getPostById: {}
+2019-08-29 13:22:01 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:22:01 debug logController: 	getPostComments: {}
+2019-08-29 13:22:07 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:22:07 info logController: 	getPosts: {}
+2019-08-29 13:22:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:22:08 debug logController: 	getPostComments: {}
+2019-08-29 13:22:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:22:08 info logController: 	getPostById: {}
+2019-08-29 13:22:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:22:11 info logController: 	getPosts: {}
+2019-08-29 13:23:30 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:23:30 debug logController: 	getPostComments: {}
+2019-08-29 13:23:30 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:23:30 info logController: 	getPostById: {}
+2019-08-29 13:23:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:23:32 info logController: 	getPosts: {}
+2019-08-29 13:24:24 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:24:24 debug logController: 	getPostComments: {}
+2019-08-29 13:24:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:24:40 debug logController: 	addPostComments: {"text":"This is it. This is as big as you ever gonna get"}
+2019-08-29 13:25:10 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:25:24 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:32:39 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:32:39 info logController: 	getPosts: {}
+2019-08-29 13:45:22 debug logController: 	logIn: {"email":"rudis@email.com","hashedPassword":"12345"}
+2019-08-29 13:45:24 info logController: 	Successfully loged in: rudis
+2019-08-29 13:45:26 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:45:26 info logController: 	getPosts: {}
+2019-08-29 13:45:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:45:29 info logController: 	getPostById: {}
+2019-08-29 13:45:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:45:29 debug logController: 	getPostComments: {}
+2019-08-29 13:45:38 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:45:38 debug logController: 	addPostComments: {"text":"This is redicilous!"}
+2019-08-29 13:45:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:45:42 info logController: 	getPostById: {}
+2019-08-29 13:45:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:45:42 debug logController: 	getPostComments: {}
+2019-08-29 13:45:51 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:45:51 debug logController: 	logIn: {}
+2019-08-29 13:46:02 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:46:02 info logController: 	getPosts: {}
+2019-08-29 13:46:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:46:03 info logController: 	getPostById: {}
+2019-08-29 13:46:03 debug logController: 	getPostComments: {}
+2019-08-29 13:46:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:46:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:46:05 info logController: 	getPosts: {}
+2019-08-29 13:47:04 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:47:04 info logController: 	getPosts: {}
+2019-08-29 13:47:07 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:47:07 info logController: 	getPosts: {}
+2019-08-29 13:47:13 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:47:13 info logController: 	getPosts: {}
+2019-08-29 13:47:33 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:47:33 info logController: 	getPosts: {}
+2019-08-29 13:47:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:47:40 info logController: 	getPosts: {}
+2019-08-29 13:47:51 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:47:51 info logController: 	getPostById: {}
+2019-08-29 13:47:51 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:47:51 debug logController: 	getPostComments: {}
+2019-08-29 13:47:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:47:54 info logController: 	getPosts: {}
+2019-08-29 13:48:04 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:48:04 info logController: 	attachMedia: {}
+2019-08-29 13:48:04 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:48:04 info logController: 	addPosts: {"contentId":"5d67d794df488d42ac6fd973","caption":"Big Black Cock"}
+2019-08-29 13:48:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:48:05 info logController: 	getPostById: {}
+2019-08-29 13:48:05 debug logController: 	getPostComments: {}
+2019-08-29 13:48:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:48:10 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:48:10 info logController: 	getPosts: {}
+2019-08-29 13:48:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:48:11 debug logController: 	getPostComments: {}
+2019-08-29 13:48:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:48:11 info logController: 	getPostById: {}
+2019-08-29 13:52:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:52:58 info logController: 	getPostById: {}
+2019-08-29 13:52:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:52:58 debug logController: 	getPostComments: {}
+2019-08-29 13:53:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:53:03 info logController: 	getPostById: {}
+2019-08-29 13:53:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:53:03 debug logController: 	getPostComments: {}
+2019-08-29 13:53:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:53:40 info logController: 	getPostById: {}
+2019-08-29 13:53:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:53:40 debug logController: 	getPostComments: {}
+2019-08-29 13:53:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:53:53 info logController: 	getPostById: {}
+2019-08-29 13:53:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:53:53 debug logController: 	getPostComments: {}
+2019-08-29 13:53:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:53:57 info logController: 	getPosts: {}
+2019-08-29 13:54:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:54:11 info logController: 	attachMedia: {}
+2019-08-29 13:54:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:54:11 info logController: 	addPosts: {"contentId":"5d67d903df488d42ac6fd975","caption":"Soviet supercar"}
+2019-08-29 13:54:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:54:11 info logController: 	getPostById: {}
+2019-08-29 13:54:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:54:11 debug logController: 	getPostComments: {}
+2019-08-29 13:55:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:12 info logController: 	getPostById: {}
+2019-08-29 13:55:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:12 debug logController: 	getPostComments: {}
+2019-08-29 13:55:13 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:13 info logController: 	getPosts: {}
+2019-08-29 13:55:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:32 info logController: 	attachMedia: {}
+2019-08-29 13:55:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:32 info logController: 	addPosts: {"contentId":"5d67d954df488d42ac6fd977","caption":"Soviet supercar"}
+2019-08-29 13:55:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:32 debug logController: 	getPostComments: {}
+2019-08-29 13:55:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:32 info logController: 	getPostById: {}
+2019-08-29 13:55:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:40 info logController: 	getPosts: {}
+2019-08-29 13:55:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 13:55:45 debug logController: 	logIn: {}
+2019-08-29 14:01:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:01:45 debug logController: 	logIn: {}
+2019-08-29 14:03:59 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:03:59 debug logController: 	logIn: {}
+2019-08-29 14:09:31 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:09:31 debug logController: 	logIn: {}
+2019-08-29 14:09:33 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:09:33 info logController: 	getPosts: {}
+2019-08-29 14:09:55 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:09:55 info logController: 	getPosts: {}
+2019-08-29 14:10:22 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:10:22 info logController: 	getPosts: {}
+2019-08-29 14:12:55 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:12:55 info logController: 	getPosts: {}
+2019-08-29 14:12:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:12:58 info logController: 	getPosts: {}
+2019-08-29 14:13:04 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:13:04 info logController: 	getPosts: {}
+2019-08-29 14:13:06 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:13:06 info logController: 	getPostById: {}
+2019-08-29 14:13:14 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:13:14 debug logController: 	logIn: {}
+2019-08-29 14:13:15 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:13:15 info logController: 	getPosts: {}
+2019-08-29 14:13:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:13:17 info logController: 	getPostById: {}
+2019-08-29 14:13:31 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:13:31 info logController: 	getPosts: {}
+2019-08-29 14:13:56 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:13:56 info logController: 	getPosts: {}
+2019-08-29 14:14:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:14:03 info logController: 	getPosts: {}
+2019-08-29 14:14:10 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:14:10 info logController: 	getPostById: {}
+2019-08-29 14:14:10 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:14:10 debug logController: 	getPostComments: {}
+2019-08-29 14:14:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:14:12 info logController: 	getPosts: {}
+2019-08-29 14:15:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:15:03 info logController: 	getPosts: {}
+2019-08-29 14:15:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:15:05 info logController: 	getPostById: {}
+2019-08-29 14:15:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:15:05 debug logController: 	getPostComments: {}
+2019-08-29 14:15:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:15:29 info logController: 	getPostById: {}
+2019-08-29 14:15:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:15:29 debug logController: 	getPostComments: {}
+2019-08-29 14:15:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:15:45 info logController: 	getPostById: {}
+2019-08-29 14:15:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:15:45 debug logController: 	getPostComments: {}
+2019-08-29 14:18:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:18:11 info logController: 	getPostById: {}
+2019-08-29 14:18:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:18:12 debug logController: 	getPostComments: {}
+2019-08-29 14:22:15 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:22:15 info logController: 	getPostById: {}
+2019-08-29 14:22:15 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:22:15 debug logController: 	getPostComments: {}
+2019-08-29 14:23:59 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:23:59 info logController: 	getPostById: {}
+2019-08-29 14:23:59 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:23:59 debug logController: 	getPostComments: {}
+2019-08-29 14:30:14 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:14 info logController: 	getPostById: {}
+2019-08-29 14:30:14 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:14 debug logController: 	getPostComments: {}
+2019-08-29 14:30:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:17 info logController: 	getPosts: {}
+2019-08-29 14:30:26 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:26 info logController: 	getPosts: {}
+2019-08-29 14:30:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:28 info logController: 	getPosts: {}
+2019-08-29 14:30:35 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:35 info logController: 	getPosts: {}
+2019-08-29 14:30:38 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:38 info logController: 	getPosts: {}
+2019-08-29 14:30:39 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:39 info logController: 	getPosts: {}
+2019-08-29 14:30:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:40 info logController: 	getPosts: {}
+2019-08-29 14:30:41 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:41 info logController: 	getPosts: {}
+2019-08-29 14:30:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:42 info logController: 	getPosts: {}
+2019-08-29 14:30:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:30:54 info logController: 	getPosts: {}
+2019-08-29 14:31:22 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:31:22 info logController: 	getPosts: {}
+2019-08-29 14:31:26 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:31:26 info logController: 	getPosts: {}
+2019-08-29 14:32:07 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:32:07 info logController: 	getPosts: {}
+2019-08-29 14:32:22 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:32:22 info logController: 	getPosts: {}
+2019-08-29 14:32:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:32:40 info logController: 	getPosts: {}
+2019-08-29 14:32:46 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:32:46 info logController: 	getPosts: {}
+2019-08-29 14:32:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:32:57 info logController: 	getPosts: {}
+2019-08-29 14:33:21 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:33:21 info logController: 	getPosts: {}
+2019-08-29 14:33:49 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:33:49 info logController: 	getPosts: {}
+2019-08-29 14:33:51 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:33:51 info logController: 	getPosts: {}
+2019-08-29 14:33:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:33:53 info logController: 	getPosts: {}
+2019-08-29 14:33:55 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:33:55 info logController: 	getPosts: {}
+2019-08-29 14:33:59 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:33:59 info logController: 	getPosts: {}
+2019-08-29 14:34:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:34:45 info logController: 	getPosts: {}
+2019-08-29 14:35:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:35:03 info logController: 	getPosts: {}
+2019-08-29 14:35:19 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:35:19 info logController: 	getPosts: {}
+2019-08-29 14:35:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:35:32 info logController: 	getPosts: {}
+2019-08-29 14:39:52 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:39:52 info logController: 	getPosts: {}
+2019-08-29 14:40:31 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:40:31 info logController: 	getPosts: {}
+2019-08-29 14:40:34 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:40:34 info logController: 	getPosts: {}
+2019-08-29 14:40:38 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:40:38 info logController: 	getPosts: {}
+2019-08-29 14:42:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:42:42 info logController: 	getPostById: {}
+2019-08-29 14:42:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:42:42 debug logController: 	getPostComments: {}
+2019-08-29 14:42:44 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 14:42:44 info logController: 	getPosts: {}
+2019-08-29 18:10:38 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:10:38 info logController: 	getPosts: {}
+2019-08-29 18:10:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:10:45 info logController: 	getPosts: {}
+2019-08-29 18:10:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:10:53 info logController: 	getPostById: {}
+2019-08-29 18:10:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:10:53 debug logController: 	getPostComments: {}
+2019-08-29 18:10:55 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:10:55 info logController: 	getPosts: {}
+2019-08-29 18:11:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:11:32 info logController: 	getPosts: {}
+2019-08-29 18:12:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:12:17 info logController: 	getPosts: {}
+2019-08-29 18:13:05 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:13:05 info logController: 	getPosts: {}
+2019-08-29 18:13:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:13:08 info logController: 	getPosts: {}
+2019-08-29 18:21:18 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:21:18 info logController: 	getPosts: {}
+2019-08-29 18:21:25 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:21:25 info logController: 	getPosts: {}
+2019-08-29 18:22:00 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:22:00 info logController: 	getPosts: {}
+2019-08-29 18:22:20 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:22:20 info logController: 	getPosts: {}
+2019-08-29 18:22:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:22:27 info logController: 	getPostById: {}
+2019-08-29 18:22:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:22:27 debug logController: 	getPostComments: {}
+2019-08-29 18:22:29 info logController: 	getPosts: {}
+2019-08-29 18:22:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:22:45 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:22:45 info logController: 	getPosts: {}
+2019-08-29 18:22:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:22:53 info logController: 	getPosts: {}
+2019-08-29 18:25:13 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:25:13 info logController: 	getPosts: {}
+2019-08-29 18:25:20 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:25:20 info logController: 	getPosts: {}
+2019-08-29 18:25:49 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:25:49 info logController: 	getPosts: {}
+2019-08-29 18:25:51 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:25:51 info logController: 	getPosts: {}
+2019-08-29 18:25:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:25:54 info logController: 	getPosts: {}
+2019-08-29 18:26:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:26:29 info logController: 	getPosts: {}
+2019-08-29 18:26:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:26:32 info logController: 	getPosts: {}
+2019-08-29 18:28:26 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:28:26 info logController: 	getPosts: {}
+2019-08-29 18:28:48 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:28:48 info logController: 	getPosts: {}
+2019-08-29 18:28:55 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:28:55 info logController: 	getPosts: {}
+2019-08-29 18:29:30 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:29:30 info logController: 	getPosts: {}
+2019-08-29 18:30:30 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:30:30 info logController: 	getPosts: {}
+2019-08-29 18:31:33 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:31:33 info logController: 	getPosts: {}
+2019-08-29 18:31:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:31:53 info logController: 	getPosts: {}
+2019-08-29 18:32:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:32:03 info logController: 	getPosts: {}
+2019-08-29 18:32:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:32:29 info logController: 	getPosts: {}
+2019-08-29 18:34:18 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:34:18 info logController: 	getPostById: {}
+2019-08-29 18:34:18 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:34:18 debug logController: 	getPostComments: {}
+2019-08-29 18:34:21 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:34:21 info logController: 	getPosts: {}
+2019-08-29 18:34:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:34:23 info logController: 	getPostById: {}
+2019-08-29 18:34:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:34:23 debug logController: 	getPostComments: {}
+2019-08-29 18:34:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:34:27 info logController: 	getPosts: {}
+2019-08-29 18:34:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:34:28 debug logController: 	logIn: {}
+2019-08-29 18:34:49 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:34:49 info logController: 	getPosts: {}
+2019-08-29 18:35:02 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:35:02 info logController: 	getPostById: {}
+2019-08-29 18:35:02 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:35:02 debug logController: 	getPostComments: {}
+2019-08-29 18:35:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:35:28 info logController: 	getPostById: {}
+2019-08-29 18:35:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:35:28 debug logController: 	getPostComments: {}
+2019-08-29 18:35:30 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:35:30 info logController: 	getPostById: {}
+2019-08-29 18:35:30 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:35:30 debug logController: 	getPostComments: {}
+2019-08-29 18:35:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:35:32 info logController: 	getPostById: {}
+2019-08-29 18:35:33 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:35:33 debug logController: 	getPostComments: {}
+2019-08-29 18:38:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:38:29 info logController: 	getPostById: {}
+2019-08-29 18:38:29 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:38:29 debug logController: 	getPostComments: {}
+2019-08-29 18:40:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:40:11 info logController: 	getPosts: {}
+2019-08-29 18:41:04 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:41:04 info logController: 	getPosts: {}
+2019-08-29 18:41:51 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:41:51 info logController: 	getPosts: {}
+2019-08-29 18:42:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:42:12 info logController: 	getPosts: {}
+2019-08-29 18:42:31 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:42:31 info logController: 	getPosts: {}
+2019-08-29 18:42:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:42:32 info logController: 	getPosts: {}
+2019-08-29 18:43:04 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:43:04 info logController: 	getPosts: {}
+2019-08-29 18:43:16 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:43:16 info logController: 	getPosts: {}
+2019-08-29 18:47:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:47:54 info logController: 	getPosts: {}
+2019-08-29 18:48:25 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:48:25 info logController: 	getPosts: {}
+2019-08-29 18:49:19 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:49:19 info logController: 	getPosts: {}
+2019-08-29 18:49:46 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:49:46 info logController: 	getPosts: {}
+2019-08-29 18:49:52 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:49:52 info logController: 	getPosts: {}
+2019-08-29 18:50:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:50:03 info logController: 	getPosts: {}
+2019-08-29 18:50:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:50:28 info logController: 	getPosts: {}
+2019-08-29 18:50:34 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:50:34 info logController: 	getPosts: {}
+2019-08-29 18:50:36 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:50:36 info logController: 	getPosts: {}
+2019-08-29 18:50:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:50:42 info logController: 	getPosts: {}
+2019-08-29 18:50:47 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:50:47 info logController: 	getPosts: {}
+2019-08-29 18:52:07 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:07 info logController: 	getPosts: {}
+2019-08-29 18:52:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:23 info logController: 	getPosts: {}
+2019-08-29 18:52:28 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:28 info logController: 	getPosts: {}
+2019-08-29 18:52:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:32 info logController: 	getPosts: {}
+2019-08-29 18:52:34 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:34 info logController: 	getPosts: {}
+2019-08-29 18:52:38 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:38 info logController: 	getPosts: {}
+2019-08-29 18:52:42 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:42 info logController: 	getPosts: {}
+2019-08-29 18:52:43 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:43 info logController: 	getPosts: {}
+2019-08-29 18:52:49 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:49 info logController: 	getPosts: {}
+2019-08-29 18:52:52 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:52 info logController: 	getPosts: {}
+2019-08-29 18:52:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:54 info logController: 	getPosts: {}
+2019-08-29 18:52:55 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:55 info logController: 	getPosts: {}
+2019-08-29 18:52:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:57 info logController: 	getPosts: {}
+2019-08-29 18:52:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:52:58 info logController: 	getPosts: {}
+2019-08-29 18:53:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:53:03 info logController: 	getPosts: {}
+2019-08-29 18:53:17 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:53:17 info logController: 	getPosts: {}
+2019-08-29 18:53:47 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:53:47 info logController: 	getPosts: {}
+2019-08-29 18:54:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:54:12 info logController: 	getPosts: {}
+2019-08-29 18:54:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:54:54 info logController: 	getPostById: {}
+2019-08-29 18:54:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:54:54 debug logController: 	getPostComments: {}
+2019-08-29 18:54:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 18:54:57 info logController: 	getPosts: {}
+2019-08-29 19:31:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:31:32 info logController: 	getPosts: {}
+2019-08-29 19:31:43 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:31:43 info logController: 	getPosts: {}
+2019-08-29 19:31:50 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:31:50 info logController: 	getPosts: {}
+2019-08-29 19:31:58 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:31:58 info logController: 	getPosts: {}
+2019-08-29 19:32:20 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:32:20 info logController: 	getPosts: {}
+2019-08-29 19:32:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:32:23 info logController: 	getPosts: {}
+2019-08-29 19:32:26 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:32:26 info logController: 	getPosts: {}
+2019-08-29 19:32:32 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:32:32 info logController: 	getPosts: {}
+2019-08-29 19:32:38 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:32:38 info logController: 	getPosts: {}
+2019-08-29 19:32:46 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:32:46 info logController: 	getPosts: {}
+2019-08-29 19:32:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:32:54 info logController: 	getPosts: {}
+2019-08-29 19:32:56 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:32:56 info logController: 	getPosts: {}
+2019-08-29 19:33:00 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:33:00 info logController: 	getPosts: {}
+2019-08-29 19:33:34 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:33:34 info logController: 	getPosts: {}
+2019-08-29 19:33:36 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:33:36 info logController: 	getPosts: {}
+2019-08-29 19:33:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:33:40 info logController: 	getPostById: {}
+2019-08-29 19:33:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:33:40 debug logController: 	getPostComments: {}
+2019-08-29 19:33:43 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:33:43 info logController: 	getPosts: {}
+2019-08-29 19:35:00 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:35:00 info logController: 	getPosts: {}
+2019-08-29 19:35:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:35:12 info logController: 	getPosts: {}
+2019-08-29 19:35:15 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:35:15 info logController: 	getPosts: {}
+2019-08-29 19:35:18 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:35:18 info logController: 	getPosts: {}
+2019-08-29 19:35:19 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:35:19 info logController: 	getPosts: {}
+2019-08-29 19:35:21 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:35:21 info logController: 	getPosts: {}
+2019-08-29 19:35:31 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:35:31 info logController: 	getPosts: {}
+2019-08-29 19:36:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:36:08 info logController: 	getPosts: {}
+2019-08-29 19:36:27 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:36:27 info logController: 	getPosts: {}
+2019-08-29 19:36:46 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:36:46 info logController: 	getPosts: {}
+2019-08-29 19:36:48 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:36:48 info logController: 	getPosts: {}
+2019-08-29 19:36:55 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:36:55 info logController: 	getPosts: {}
+2019-08-29 19:37:02 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:37:02 info logController: 	getPosts: {}
+2019-08-29 19:37:03 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:37:03 info logController: 	getPosts: {}
+2019-08-29 19:37:09 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:37:09 info logController: 	getPosts: {}
+2019-08-29 19:37:16 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:37:16 info logController: 	getPosts: {}
+2019-08-29 19:38:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:38:08 info logController: 	getPosts: {}
+2019-08-29 19:38:36 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:38:36 info logController: 	getPosts: {}
+2019-08-29 19:39:33 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:39:33 info logController: 	getPosts: {}
+2019-08-29 19:39:48 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:39:48 info logController: 	getPosts: {}
+2019-08-29 19:39:52 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:39:52 info logController: 	getPosts: {}
+2019-08-29 19:40:37 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:40:37 info logController: 	getPosts: {}
+2019-08-29 19:40:44 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:40:44 info logController: 	getPosts: {}
+2019-08-29 19:40:57 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:40:57 info logController: 	getPosts: {}
+2019-08-29 19:40:59 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:40:59 info logController: 	getPosts: {}
+2019-08-29 19:41:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:41:08 info logController: 	getPosts: {}
+2019-08-29 19:41:12 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:41:12 info logController: 	getPosts: {}
+2019-08-29 19:41:24 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:41:24 info logController: 	getPosts: {}
+2019-08-29 19:41:49 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:41:49 info logController: 	getPosts: {}
+2019-08-29 19:41:54 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:41:54 info logController: 	getPosts: {}
+2019-08-29 19:42:11 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:42:11 info logController: 	getPosts: {}
+2019-08-29 19:42:40 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:42:40 info logController: 	getPosts: {}
+2019-08-29 19:42:48 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:42:48 info logController: 	getPosts: {}
+2019-08-29 19:42:53 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:42:53 info logController: 	getPosts: {}
+2019-08-29 19:43:06 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:43:06 info logController: 	getPosts: {}
+2019-08-29 19:43:08 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:43:08 info logController: 	getPosts: {}
+2019-08-29 19:43:23 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 19:43:23 info logController: 	getPosts: {}
+2019-08-29 23:08:18 debug logController: 	logIn: {"email":"rudis@email.com","hashedPassword":"12345"}
+2019-08-29 23:08:18 info logController: 	Successfully loged in: rudis
+2019-08-29 23:08:36 debug authenticate: 	User: rudis was successfully authenticated
+2019-08-29 23:08:36 info logController: 	getPosts: {}

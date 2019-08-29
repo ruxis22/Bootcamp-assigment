@@ -13,5 +13,7 @@ router.post('/content/image', diskStorageSingle, asyncMiddleware(mediaController
 router.get('/:mediaId', asyncMiddleware(mediaController.getPostById));
 router.get('/:mediaId/comments', asyncMiddleware(commentController.getPostComments));
 router.post('/:mediaId/comments', asyncMiddleware(commentController.addPostComments));
+router.delete('/:mediaId', asyncMiddleware(mediaController.findByIdAndRemove));
+
 
 export default router;

@@ -13,7 +13,7 @@ const postSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-const PostModel = mongoose.model('Post', postSchema);
+const PostModel = mongoose.model('Posts', postSchema);
 
 const save = async model => new PostModel(model).save();
 
@@ -25,4 +25,6 @@ const getRandomPosts = async () => PostModel.find();
 
 const getPostByCategory = async category => PostModel.find({ category }); 
 
-export { save, getPostByUser, getRandomPosts, getPostById, getPostByCategory};
+const findByIdAndRemove = async _id => PostModel.findById ({_id})
+
+export { save, getPostByUser, getRandomPosts, getPostById, getPostByCategory, findByIdAndRemove};

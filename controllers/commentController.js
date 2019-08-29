@@ -22,4 +22,12 @@ const addPostComments = async (req, res) => {
   res.status(201).send();
 };
 
-export { getPostComments, addPostComments };
+
+    const findCommentByIdAndRemove = async (req, res) => {
+      logger.log('info', 'getPosts: %j', req.body)
+      const removeCommentById = await PostModel.findCommentByIdAndRemove(req.params.commentId);
+      res.status(200).send({ removeCommentById })
+    }
+
+
+export { getPostComments, addPostComments, findCommentByIdAndRemove }
